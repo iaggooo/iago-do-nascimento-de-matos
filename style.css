@@ -1,0 +1,129 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilizando o header */
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header .btn:hover {
+    background: #e5533e;
+}
+
+/* Estilizando seções */
+section {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de Habilidades */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ul li {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Estilizando os projetos */
+.projeto {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+.projeto h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.projeto a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projeto a:hover {
+    color: #e5533e;
+}
+
+/* Seção de Contato */
+#contato p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
