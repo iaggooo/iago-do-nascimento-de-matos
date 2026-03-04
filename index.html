@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Seção de Introdução -->
+    <header>
+        <div class="container">
+            <h1>Olá, Eu sou [Seu Nome]</h1>
+            <p>Desenvolvedor Web | Programador | Criador de Soluções</p>
+            <a href="#contato" class="btn">Entre em Contato</a>
+        </div>
+    </header>
+
+    <!-- Seção de Habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Minhas Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto. Um sistema web que resolve [problema].</p>
+                <a href="https://github.com/seuusuario/projeto1" target="_blank">Ver no GitHub</a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto. Um aplicativo que faz [função].</p>
+                <a href="https://github.com/seuusuario/projeto2" target="_blank">Ver no GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Email: seuemail@example.com</p>
+            <p>Telefone: (99) 99999-9999</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 [Seu Nome]. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+2. Código CSS - style.css
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilizando o header */
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header .btn:hover {
+    background: #e5533e;
+}
+
+/* Estilizando seções */
+section {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de Habilidades */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ul li {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Estilizando os projetos */
+.projeto {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+.projeto h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.projeto a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projeto a:hover {
+    color: #e5533e;
+}
+
+/* Seção de Contato */
+#contato p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
 
